@@ -1,0 +1,106 @@
+ body {
+  background-image: url("./img/background-white.avif");
+width: 100%;
+   margin: 0;
+  padding: 0;
+  background-size: cover;
+  
+}
+.background-image {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+
+}
+.image-overlay {
+  background-color: transparent;
+  padding: 20px;
+  text-align: center;
+
+}
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2.5rem;
+  color: #252525;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+  font-style: normal;
+  font-weight:bold;
+
+}
+h1.title {
+  margin-bottom: 20px;
+}
+.toggle-container {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.toggle-container label {
+  margin-right: 5px;
+}
+body.dark-mode {
+  background-color: #333;
+  color: #ffffff;
+}
+.dark-mode-toggle {
+  position: fixed;
+  top: 10x;
+  right: 10px;
+  padding: 10px;
+
+}
+
+.social-container {
+  text-align: center;
+  background-color: transparent;
+  padding-top: 50px;
+ 
+}
+body.dark-mode header {
+  background-color: #333;
+}
+body.dark-mode .social-container {
+  background-color: transparent;
+}
+
+body.dark-mode {
+  background-image: url("./img/wallpaperbetter.jpg");
+  color: #ffffff; /* Color de texto blanco */
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+
+.dark-mode-toggle {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+body.dark-mode .dark-mode-toggle {
+  background-color: #333333; /* Fondo oscuro para el botón */
+}
+
+body.dark-mode h1,
+body.dark-mode p {
+  color: #ffffff; 
+}
+
+
+
+.fa-sun::before {
+  content: "\f185";
+}
